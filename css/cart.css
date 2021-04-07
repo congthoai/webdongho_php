@@ -1,0 +1,33 @@
+#giohang {
+	float: left;
+
+	padding: 20px;
+	padding-right: 50px;
+	width: 550px;
+	max-height: 560px;
+	overflow: auto;
+}
+
+
+.list_cart td {
+	padding: 10px;
+	border-top: 1px black solid;
+	margin: 10px;
+}
+
+.list_cart th {
+	padding: 10px;
+}
+
+.tongcong {
+	float: left;
+	padding: 20px;
+	margin-left: 30px;
+	width: 395px;
+}
+
+.total_cart td {
+	padding: 10px 30px;
+	border-top: 1px black solid;
+	margin: 10px;
+}

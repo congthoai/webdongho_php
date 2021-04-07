@@ -1,0 +1,135 @@
+
+
+.grid-dh{
+    width: 100%;
+    height: 805px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.title-grid{
+    width: 100%;
+    height: 70px;
+    margin: 50px auto 0px auto;
+    background: #fff;
+}
+
+
+.title-grid >  h3{
+    color: #000;
+    line-height: 40px;
+    text-align: center;
+}
+
+#p-float {
+    max-width: 95%;
+    height:100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  #p-float::after {
+    content: "`";
+    clear: both;
+    display: table;
+    color: transparent;
+  }
+  /* Product items */
+  div.p-float {
+    float: left;
+    width: 25%;
+    height: 375px;
+    margin-bottom: 20px;
+    
+  }
+  div.p-float-in {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 15px 5px;
+    border: none;
+    background: #fff;
+    /* background: #fff7f7; */
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #E1E1E1;
+    border-radius: 7px;
+    background: #FFF;
+    box-shadow: 1px 1px #FFFFF5;
+  }
+
+  div.p-float-in:hover{
+    border: 2px dashed black;
+    background-color: #F5F5DC;
+  }
+
+  img.p-img {
+    border-bottom: 1px solid gray;
+    background: #FFF;
+    box-shadow: 1px 1px #FFFFF5;
+    width: 100%;
+    height: 300px;
+  }
+  div.p-name {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    max-height: 45px;
+    overflow: hidden;
+    margin-top: 9px;
+
+  }
+  
+  div.p-final-price {
+    color: #f44242;
+    text-align: center;
+  	text-decoration:none;
+  	float: left;
+    margin-left: 5%;
+    margin-top: 11px;
+
+  }
+  
+  div.p-price {
+    color:#219FD1;
+    text-align: center;
+  	float: right;
+    margin-right:5%;
+    margin-top: 11px;
+  	text-decoration: line-through;
+  }
+
+
+  button.p-add {
+    background: transparent;
+    color: #111;
+    border-right: none;
+    border-top-left-radius: 20%;
+    padding: 9px 32px 5px 12px;
+    position: absolute;
+    right: 5px;
+    top: 65%;
+    display: none;
+  }
+
+  div.p-float-in:hover button.p-add{
+    display: block;
+  }
+
+  button.p-add:hover {
+    /* background: #f46b41; */
+    color: teal;
+  }
+
+  /* Responsive */
+  @media only screen and (max-width: 900px) {
+    div.p-float { width: 33%; }
+  }
+  @media only screen and (max-width: 600px) {
+    div.p-float { width: 50%; }
+  }
+  /* [DOES NOT MATTER] */
+  /* html, body {
+    padding: 0;
+    margin: 0;
+    font-family: arial, sans-serif;
+  } */
